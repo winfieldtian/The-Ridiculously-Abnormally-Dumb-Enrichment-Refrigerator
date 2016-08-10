@@ -13,7 +13,7 @@ $ pip install -r requirements.txt
 
 2) Select data source. ```market_data_client = MarketDataClient('data/stooq_hourly/wmt.us.txt', ticker)```
 
-3) Ensure ```MarketDataClient``` is correctly loaded with source ```from market_data_client.stooq_client import MarketDataClient```
+3) Ensure ```MarketDataClient``` is compatible with data source format ```from market_data_client.stooq_client import MarketDataClient```
 
 4) In project home directory, run ```python main.py $TICKER```,
     - in this example, it would be ```python main.py WMT```
